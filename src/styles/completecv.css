@@ -1,0 +1,169 @@
+.complete-cv {
+  border: 1px solid rgb(207, 207, 207);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 32px;
+  margin-top: 32px;
+}
+
+.complete-cv-split {
+  display: flex;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+/* Section 1 */
+
+.cv-section1 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+
+.personal-name {
+  flex: 1;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.personal-picture {
+  height: 128px;
+  width: 128px;
+  background-color: gray;
+  height: 128px;
+  width: 128px;
+  overflow: hidden;
+}
+
+/* Section 2 */
+
+.cv-section2 {
+  display: flex;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.general-info {
+  padding: 16px 32px 16px 0px;
+  flex: 1;
+}
+
+.general-info ul li {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.general-info ul li::before {
+  border-bottom: 1px solid #ccc;
+  content: "";
+  flex-grow: 1;
+  height: 1em;
+  order: 2;
+  margin: 0 3px;
+  margin-bottom: 8px;
+}
+
+.general-info-info {
+  order: 3;
+  padding-top: 0.5em;
+}
+
+.general-info-description {
+  flex: 1;
+  padding: 16px 0px 16px 32px;
+  border-left: 1px solid rgb(207, 207, 207);
+}
+
+.general-info-description-text {
+  margin-left: 16px;
+  color: rgb(122, 122, 122);
+  margin-bottom: 12px;
+
+}
+
+.general-info-title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+/* Section 3 */
+
+.cv-section3 {
+  border-right: 1px solid rgb(207, 207, 207);
+  flex: 1;
+  padding-bottom: 16px;
+}
+
+.education-title {
+  font-size: 24px;
+  padding: 16px 0 0 0;
+}
+
+.education-wrapper {
+  padding: 0 32px 16px 16px;
+  flex: 1;
+}
+
+.education-wrapper ul li {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.education-wrapper ul li::before {
+  border-bottom: 1px solid #ccc;
+  content: "";
+  flex-grow: 1;
+  height: 1em;
+  order: 2;
+  margin: 0 3px;
+}
+
+.education-info {
+  order: 3;
+  padding-top: 0.5em;
+}
+
+/* Section 4 */
+.cv-section4 {
+  flex: 1;
+  padding-bottom: 16px;
+ }
+
+ .experience-title {
+  font-size: 24px;
+  padding: 16px 0 0 32px;
+}
+
+.experience-wrapper {
+  padding: 0 32px 16px 16px;
+  flex: 1;
+  margin-left: 32px;
+}
+
+.experience-wrapper ul li {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 1;
+  margin-bottom: 18px;
+}
+
+.experience-wrapper ul li::before {
+  border-bottom: 1px solid #ccc;
+  content: "";
+  flex-grow: 1;
+  height: 1em;
+  order: 2;
+  margin: 0 3px;
+}
+
+.experience-info {
+  order: 3;
+  padding-top: 0.5em;
+}

@@ -1,0 +1,56 @@
+.general-form {
+  border-bottom: 1px solid rgb(207, 207, 207);
+  padding-bottom: 16px;
+}
+
+.general-form-title {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+
+.general-form-section {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+
+.general-form-name,
+.general-form-email,
+.general-form-phone,
+.general-form-description,
+.general-form-location {
+  flex: 1;
+  white-space: nowrap;
+}
+
+.general-form-name-input,
+.general-form-email-input,
+.general-form-phone-input,
+.general-form-description-input,
+.general-form-location-input {
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 2px;
+  padding: 6px 6px;
+  flex: 3;
+  color: gray;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.general-form-description-input {
+  max-height: 200px;
+  min-height: 30px;
+}
+
+.general-form-name-input::placeholder,
+.general-form-email-input::placeholder,
+.general-form-phone-input::placeholder,
+.general-form-description-input::placeholder,
+.general-form-location-input::placeholder {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
