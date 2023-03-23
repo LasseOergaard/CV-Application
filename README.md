@@ -1,4 +1,4 @@
-This Project is the first project where i am using React, to learn the basics of it.
+This Project is the first project where i am using React.
 It has taught me:
 - State management
 - Props
